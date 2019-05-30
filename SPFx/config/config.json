@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "office-365-cli-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/office365Cli/Office365CliWebPart.js",
+          "manifest": "./src/webparts/office365Cli/Office365CliWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Office365CliWebPartStrings": "lib/webparts/office365Cli/loc/{locale}.js"
+  }
+}
