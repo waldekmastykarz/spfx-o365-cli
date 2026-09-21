@@ -15,7 +15,7 @@ Manage your Office 365 tenant using the [Office 365 CLI](https://aka.ms/o365cli)
 
 ## Setup instructions
 
-This solution consists of two pieces: a Docker image and a SharePoint Framework solution. It assumes that the Docker container is running on [Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/).
+This solution consists of two pieces: a Docker image and a SharePoint Framework solution. It assumes that the Docker container is running on [Azure Container Instances](https://azure.microsoft.com/services/container-instances/?WT.mc_id=m365-0000-wmastyka).
 
 1. Clone this repo
 
